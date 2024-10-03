@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
@@ -32,11 +35,11 @@
                             Home</i>
                         </a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#about" class="nav__link">
                             About
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             Skills
@@ -135,214 +138,124 @@
                 </div>
             </div>
         </section>
-
-        <!--==================== ABOUT ====================-->
-        <div style="background-color: var(--first-color-lighter);">
-            <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <!-- <span class="section__subtitle">My introduction</span> -->
-
-                <div class="about__container container grid">
-
-                    <img src="./images/logo2.png" alt="" class="about__img">
-
-
-                    <div class="about__data">
-                        <p class="about__description">
-                        <h1>David Wu - <br>
-                            PHP Web Developer</h1>
-                        <section><br>
-                            <p>I am David Wu, a PHP Web Developer with expertise in both front-end and back-end
-                                technologies. <br><br>
-                            </p>
-                        </section>
-
-                        <section>
-                            <h3>Proficient Development Tools:</h3>
-                            <ul>
-                                <li>XAMPP</li>
-                                <li>Visual Studio Code</li>
-                                <li>ChatGPT</li>
-                            </ul>
-                        </section><br>
-
-                        <section>
-                            <h2>Back-End Skills:</h2>
-                            <ul>
-                                <li>PHP</li>
-                                <li>MariaDB</li>
-                                <li>Laravel</li>
-                            </ul>
-                        </section><br>
-
-                        <section>
-                            <h2>Front-End Skills:</h2>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>jQuery (JQ)</li>
-                                <li>JavaScript (JS)</li>
-                            </ul>
-                        </section><br>
-
-                        <section>
-                            <h2>Art Editing Skills:</h2>
-                            <ul>
-                                <li>Photoshop</li>
-                                <li>Adobe Illustrator</li>
-                            </ul>
-                        </section><br>
-                        </p>
-
-                    </div>
-
-                </div>
-            </section>
-        </div>
         <!--==================== SKILLS ====================-->
-
-        <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My technical level</span>
-
-            <div class="skills__container container grid">
-                <!--==================== SKILL 1 ====================-->
-                <div>
-                    <div class="skills__content skills__open">
-                        <div class="skills__header">
-                            <i class="uil uil-server-network-alt skills__icon"></i>
-                            <div>
-                                <h1 class="skills__title">後端開發工具</h1>
-                                <!-- <span class="skills__subtitle"></span> -->
-                            </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
+        <div style="background-color: var(--first-color-lighter);">
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My Favorite Skills
+                </span>
+        <div class="skills__container container grid section__border">
+             <!--==================== SKILLS 1 ====================-->
+             <div class="skills__content">
+                <h3 class="skills__title">
+                    <i class="ri-code-s-slash-line"></i> Backend Developer
+                </h3>
+                <div class="skills__info">
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/new-php-logo.svg" alt="skills image">
                         </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">PHP</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__php"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Maria DB</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__db"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Laravel</h3>
-                                    <span class="skills__number">30%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__lara"></span>
-                                </div>
-                            </div>
-
-                        </div>
+                        <h3 class="skills__name">php</h3>
+                        <span class="skills__subtitle">Advanced</span>
                     </div>
 
-
-
-                    <!--==================== SKILL 2 ====================-->
-
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-brackets-curly skills__icon"></i>
-
-                            <div>
-                                <h1 class="skills__title">前端開發工具</h1>
-                                <!-- <span class="skills__subtitle"></span> -->
-                            </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/laravel-2.svg" alt="skills image">
                         </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">HTML</h3>
-                                    <span class="skills__number">90%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__js"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JQuery</h3>
-                                    <span class="skills__number">65%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__jq"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">CSS</h3>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__css"></span>
-                                </div>
-                            </div>
+                        <h3 class="skills__name">Laravel</h3>
+                        <span class="skills__subtitle">Intermedate</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/xampp.svg" alt="skills image">
                         </div>
+                        <h3 class="skills__name">Xampp</h3>
+                        <span class="skills__subtitle">Intermedate</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/mysql-3.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">mysql</h3>
+                        <span class="skills__subtitle">Intermedate</span>
                     </div>
                 </div>
-
-
-                <!--==================== SKILL 3 ====================-->
-                <div>
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-image-edit skills__icon"></i>
-                            <div>
-                                <h1 class="skills__title">美編工具</h1>
-                                <!-- <span class="skills__subtitle"></span> -->
-                            </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Photoshop</h3>
-                                    <span class="skills__number">40%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__ps"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Adobe Illustrator</h3>
-                                    <span class="skills__number">50%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__ill"></span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </section>
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content">
+                <h3 class="skills__title">
+                    <i class="ri-braces-line"></i> Frontend Developer
+                </h3>
+                <div class="skills__info">
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/html-1.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">HTML</h3>
+                        <span class="skills__subtitle">Intermedate</span>
+                    </div>
 
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/css-3.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__subtitle">Advanced</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/logo-javascript.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">JavaScript</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/git-icon.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">GIT</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+            <!--==================== SKILLS 3 ====================-->
+            <div class="skills__content">
+                <h3 class="skills__title">
+                    <i class="ri-pantone-line"></i> Web Developer
+                </h3>
+                <div class="skills__info">
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/adobe-photoshop-2.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Photoshop</h3>
+                        <span class="skills__subtitle">Intermedate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/adobe-illustrator-cs6.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">illustrator</h3>
+                        <span class="skills__subtitle">Intermedate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/img/figma-1.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">figma</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        </div>
 
         <!--==================== QUALIFICATION ====================-->
         <!-- <section class="qualification section">
